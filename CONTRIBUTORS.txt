@@ -8,4 +8,9 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-- Rafael Corchuelo (corchu@us.es)
+- Miguel Galán Lerate(miggaller@alum.us.es)
+- Alberto Carmona Sicre(albcarsic@alum.us.es)
+- Marco Padilla Gómez(marpadgom@alum.us.es)
+- Lucía Noya Cano(lucnoycan@alum.us.es)
+- Paula Luna Navarro(paulunnav@alum.us.es)
+
