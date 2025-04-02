@@ -28,7 +28,7 @@ public class Airline extends AbstractEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@Mandatory
-	@ValidString(min = 1, max = 50)
+	@ValidString(max = 50)
 	@Automapped
 	private String				name;
 
