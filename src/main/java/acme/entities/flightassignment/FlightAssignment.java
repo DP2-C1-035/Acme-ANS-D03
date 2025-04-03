@@ -1,5 +1,5 @@
 
-package acme.entities;
+package acme.entities.flightassignment;
 
 import java.util.Date;
 
@@ -14,6 +14,7 @@ import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidString;
+import acme.entities.FlightCrewDuty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -38,6 +39,11 @@ public class FlightAssignment extends AbstractEntity {
 	@Mandatory
 	@Automapped
 	public AssignmentStatus		assignmentStatus;
+
+	@Mandatory
+	@Valid
+	@Automapped
+	private Boolean				draftMode;
 
 	@Optional
 	@Automapped
