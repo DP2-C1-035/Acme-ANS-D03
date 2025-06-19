@@ -1,5 +1,5 @@
 
-package acme.constraints;
+package acme.constraints.assistanceAgents;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
