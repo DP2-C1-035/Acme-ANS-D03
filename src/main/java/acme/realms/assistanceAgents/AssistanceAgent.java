@@ -1,5 +1,5 @@
 
-package acme.realms.assitanceAgents;
+package acme.realms.assistanceAgents;
 
 import java.util.Date;
 
@@ -17,7 +17,7 @@ import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidMoney;
 import acme.client.components.validation.ValidString;
 import acme.client.components.validation.ValidUrl;
-import acme.constraints.ValidAssistanceAgent;
+import acme.constraints.assistanceAgents.ValidAssistanceAgent;
 import lombok.Getter;
 import lombok.Setter;
 

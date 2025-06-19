@@ -1,5 +1,5 @@
 
-package acme.constraints;
+package acme.constraints.assistanceAgents;
 
 import java.util.regex.Pattern;
 
@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.validation.AbstractValidator;
 import acme.client.components.validation.Validator;
-import acme.realms.assitanceAgents.AssistanceAgent;
-import acme.realms.assitanceAgents.AssistanceAgentRepository;
+import acme.realms.assistanceAgents.AssistanceAgent;
+import acme.realms.assistanceAgents.AssistanceAgentRepository;
 
 @Validator
 public class AssistanceAgentValidator extends AbstractValidator<ValidAssistanceAgent, AssistanceAgent> {
